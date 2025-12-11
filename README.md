@@ -5,6 +5,7 @@ La tienda está pensada como un proyecto profesional de portafolio: implementa a
 
 ---
 
+
 ## 🚀 Objetivos del Proyecto
 - Construir un e-commerce funcional aplicando arquitectura real.
 - Demostrar habilidades full stack: frontend, backend y base de datos.
@@ -12,6 +13,55 @@ La tienda está pensada como un proyecto profesional de portafolio: implementa a
 - Practicar flujos típicos de sistemas reales (CRUD, carrito, vistas dinámicas).
 - Servir como base para futuros proyectos más complejos.
 
+---
+
+## 🎯 Público Objetivo
+
+**El sitio está dirigido a:**
+
+* Jóvenes y adultos (18–45 años) interesados en tecnología.
+* Personas que buscan productos informáticos como notebooks, componentes, periféricos y accesorios.
+* Usuarios con conocimientos básicos de compra online.
+* Personas que desean comparar productos fácilmente y realizar compras rápidas.
+* Clientes que buscan una interfaz clara, simple y moderna sin elementos innecesarios.
+
+**Necesidades principales del público:**
+
+* Ver productos con información clara.
+* Filtrar por categorías.
+* Usabilidad sencilla.
+* Carrito de compras entendible.
+* Proceso de login/registro rápido.
+---
+
+## 📌 Alcance del Proyecto (Scope)
+
+**✔ Funcionalidades incluidas:**
+
+* Catálogo de productos con categorías.
+* Página de detalle de cada producto.
+* Carrito de compras (agregar, quitar, ver total).
+
+**Sistema de usuarios:**
+
+* Registro
+* Login
+* Logout
+* Panel de administración:
+* Login de administrador
+* CRUD de productos (crear, editar, eliminar)
+* Gestión básica de categorías
+* API REST en PHP para comunicación frontend → backend.
+* Base de datos en PostgreSQL.
+
+**❌ Funcionalidades que NO están incluidas (fuera del alcance):**
+
+* Procesadores de pago reales (PayPal, WebPay, Stripe).
+* Sistema de envíos reales.
+* Historial de compras.
+* Seguridad avanzada (tokens JWT, OAuth).
+* Frontend con frameworks SPA (React, Vue, Angular).
+* Panel multiusuario complejo.
 ---
 
 ## 🧰 Tecnologías Utilizadas
@@ -84,6 +134,14 @@ La tienda está pensada como un proyecto profesional de portafolio: implementa a
   /sql
     schema.sql
 ``` 
+## Definición de categorías
+
+* Gaming y Streaming
+* Computación
+* Componentes
+* Conectividad y redes
+* Audio y video
+---
 
 ## 🎨 Paleta de Colores del Proyecto
 
@@ -115,7 +173,21 @@ El e-commerce utiliza una paleta inspirada en tonos morados modernos. Esta palet
   --border-light: #e5e5e5;
 }
 ```
+---
 
+## Wireframe
+
+### Landing page
+
+<img src="./public/assets/img/wireframe/landing-page.png" width="70%">
+
+### Página de productos
+
+<img src="./public/assets/img/wireframe/productos.png" width="70%">
+
+### Página detalle de producto
+
+<img src="./public/assets/img/wireframe/detalle-producto.png" width="70%">
 
 ## ⚙️ Estado del Proyecto
 - [x] Definición de tecnologías  
